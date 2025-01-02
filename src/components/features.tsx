@@ -1,34 +1,34 @@
-import { Calendar, Clock, CreditCard, Users, Clipboard, Bell } from "'lucide-react'"
+import { Calendar, Clock, CreditCard, Users, Clipboard, Bell } from "lucide-react"
 
 const features = [
   {
-    name: "'Smart Scheduling'",
-    description: "'Effortlessly manage and coordinate maid schedules with our AI-powered calendar interface.'",
+    name: "Smart Scheduling",
+    description: "Effortlessly manage and coordinate maid schedules with our AI-powered calendar interface.",
     icon: Calendar,
   },
   {
-    name: "'Time Tracking'",
-    description: "'Accurately track working hours and tasks completed by your household staff in real-time.'",
+    name: "Time Tracking",
+    description: "Accurately track working hours and tasks completed by your household staff in real-time.",
     icon: Clock,
   },
   {
-    name: "'Payroll Automation'",
-    description: "'Streamline salary calculations and payments with our integrated payroll system.'",
+    name: "Payroll Automation",
+    description: "Streamline salary calculations and payments with our integrated payroll system.",
     icon: CreditCard,
   },
   {
-    name: "'Staff Profiles'",
-    description: "'Maintain detailed profiles for each staff member, including skills, preferences, and performance history.'",
+    name: "Staff Profiles",
+    description: "Maintain detailed profiles for each staff member, including skills, preferences, and performance history.",
     icon: Users,
   },
   {
-    name: "'Task Management'",
-    description: "'Create, assign, and track household tasks with ease using our intuitive task management system.'",
+    name: "Task Management",
+    description: "Create, assign, and track household tasks with ease using our intuitive task management system.",
     icon: Clipboard,
   },
   {
-    name: "'Notifications'",
-    description: "'Stay informed with real-time alerts and reminders for important events tasks.'",
+    name: "Notifications",
+    description: "Stay informed with real-time alerts and reminders for important events tasks.",
     icon: Bell,
   },
 ]

@@ -1,6 +1,6 @@
-import { Button } from "'@/components/ui/button'"
-import { Input } from "'@/components/ui/input'"
-import { Textarea } from "'@/components/ui/textarea'"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
 
 export default function Contact() {
   return (
@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-red-900 dark:text-red-100 sm:text-4xl text-center">Get in touch</h2>
           <p className="mt-4 text-lg text-red-700 dark:text-red-300 text-center">
-            Have questions about Ghar Ka Kaam? We're here to help.
+            Have questions about Ghar Ka Kaam? We&apos;re here to help.
           </p>
           <form className="mt-10 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
             <div>

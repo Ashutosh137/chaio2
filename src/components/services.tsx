@@ -1,4 +1,4 @@
-import { Calendar, Clock, ClipboardList, Bell, Users, CreditCard } from "'lucide-react'"
+import { Calendar, Clock, ClipboardList, Bell, Users, CreditCard } from "lucide-react"
 
 const services = [
   {

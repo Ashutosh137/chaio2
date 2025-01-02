@@ -1,16 +1,16 @@
-import Hero from "'@/components/hero'"
-import AboutUs from "'@/components/about-us'"
-import Services from "'@/components/services'"
-import MaidProfiles from "'@/components/maid-profiles'"
-import Testimonials from "'@/components/testimonials'"
-import Workflow from "'@/components/workflow'"
-import WhyChooseUs from "'@/components/why-choose-us'"
-import Footer from "'@/components/footer'"
-import Header from "'@/components/header'"
+import Hero from "@/components/hero";
+import AboutUs from "@/components/about-us";
+import Services from "@/components/services";
+import MaidProfiles from "@/components/maid-profiles";
+import Testimonials from "@/components/testimonials";
+import Workflow from "@/components/workflow";
+import WhyChooseUs from "@/components/why-choose-us";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 
-export default function Home() {
+export default function page() {
   return (
-    <main className="overflow-hidden">
+    <>
       <Header />
       <Hero />
       <AboutUs id="about" />
@@ -20,7 +20,6 @@ export default function Home() {
       <Workflow />
       <WhyChooseUs />
       <Footer />
-    </main>
-  )
+    </>
+  );
 }
-

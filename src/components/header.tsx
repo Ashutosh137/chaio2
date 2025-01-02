@@ -1,15 +1,16 @@
-"'use client'"
+"use client"
 
-import { useState } from "'react'"
-import { Menu, X } from "'lucide-react'"
-import { Button } from "'@/components/ui/button'"
+import { useState } from "react"
+import { Menu, X } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const navigation = [
-  { name: "'Home'", href: "'#'" },
-  { name: "'About'", href: "'#about'" },
-  { name: "'Services'", href: "'#services'" },
-  { name: "'Maids'", href: "'#maids'" },
-  { name: "'Testimonials'", href: "'#testimonials'" },
+  { name: "Home", href: "#" },
+  { name: "About", href: "#about" },
+  { name: "Services", href: "#services" },
+  { name: "Maids", href: "#maids" },
+  { name: "Testimonials", href: "#testimonials" },
 ]
 
 export default function Header() {
@@ -21,7 +22,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Ghar Ka Kaam</span>
-            <img className="h-8 w-auto" src="/logo.png" alt="Ghar Ka Kaam Logo" />
+            <Image className="h-8 w-auto" src="/logo.png" alt="Ghar Ka Kaam Logo" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -54,7 +55,7 @@ export default function Header() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Ghar Ka Kaam</span>
-                <img
+                <Image
                   className="h-8 w-auto"
                   src="/logo.png"
                   alt="Ghar Ka Kaam Logo"

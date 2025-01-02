@@ -1,4 +1,5 @@
-import { CheckCircle } from "'lucide-react'"
+import { CheckCircle } from "lucide-react"
+import Image from "next/image"
 
 const reasons = [
   "User-friendly interface",
@@ -15,7 +16,7 @@ export default function WhyChooseUs() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
-            <img
+            <Image
               alt="Why Choose Us"
               src="/why-choose-us.jpg"
               className="absolute inset-0 h-full w-full object-cover"

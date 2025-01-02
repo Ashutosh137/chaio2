@@ -1,7 +1,8 @@
-import { Swiper, SwiperSlide } from "'swiper/react'"
-import { Pagination, Autoplay } from "'swiper/modules'"
-import "'swiper/css'"
-import "'swiper/css/pagination'"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Pagination, Autoplay } from "swiper/modules"
+import "swiper/css"
+import "swiper/css/pagination"
+import Image from "next/image"
 
 const testimonials = [
   {
@@ -51,13 +52,13 @@ export default function Testimonials({ id }: { id?: string }) {
             <SwiperSlide key={index}>
               <div className="bg-white rounded-lg p-6 shadow-lg">
                 <div className="flex items-center mb-4">
-                  <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full mr-4" />
+                  <Image src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full mr-4" />
                   <div>
                     <h3 className="font-semibold">{testimonial.name}</h3>
                     <p className="text-gray-600 text-sm">{testimonial.role}</p>
                   </div>
                 </div>
-                <p className="text-gray-700 italic">"{testimonial.quote}"</p>
+                <p className="text-gray-700 italic">&quot;{testimonial.quote}&quot;</p>
               </div>
             </SwiperSlide>
           ))}

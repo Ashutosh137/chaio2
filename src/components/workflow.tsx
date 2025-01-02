@@ -1,13 +1,17 @@
-import { ArrowRight } from "'lucide-react'"
-
 const steps = [
   { title: "Sign Up", description: "Create your account in minutes" },
   { title: "Add Staff", description: "Input your household staff details" },
   { title: "Set Schedules", description: "Create and manage work schedules" },
   { title: "Assign Tasks", description: "Easily allocate tasks to your staff" },
-  { title: "Track Progress", description: "Monitor task completion in real-time" },
-  { title: "Process Payments", description: "Automate staff payments securely" },
-]
+  {
+    title: "Track Progress",
+    description: "Monitor task completion in real-time",
+  },
+  {
+    title: "Process Payments",
+    description: "Automate staff payments securely",
+  },
+];
 
 export default function Workflow() {
   return (
@@ -31,6 +35,5 @@ export default function Workflow() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
